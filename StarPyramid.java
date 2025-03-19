@@ -1,6 +1,9 @@
+import java.util.*;
 public class Main{
     public static void main(String[] args){
-        int n=5;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter value for N : ");
+        int n = sc.nextInt();
         for(int i=1;i<=n;i++){
             //for space
             for(int k=n-i;k>=0;k--){
