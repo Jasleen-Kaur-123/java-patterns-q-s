@@ -2,7 +2,7 @@ import java.util.*;
 public class Main{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter value for N : ");
+        System.out.print("Enter value of Star Pyramid of N : ");
         int n = sc.nextInt();
         for(int i=1;i<=n;i++){
             //for space
